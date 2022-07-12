@@ -1,0 +1,86 @@
+body, p, button, form {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    margin: 10px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    height: 50px;
+    border: 3px solid rgb(72, 97, 160); 
+}
+
+p {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.mark-btn {
+    float: right;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    margin: 9px 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mark-btn {
+    border: none;
+    border-radius: 10rem;
+    background-color: #76daa0;
+}
+
+.mark-btn:hover {
+    background-color: #5cbfb3;
+}
+
+.submit-btn {
+    margin: 0 auto;
+    max-height: 10vh;
+    width: 25rem;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 10rem;
+    background-color: aliceblue;
+}
+
+.submit-btn:hover {
+    border: none;
+    border-radius: 10rem;
+    background-color: #5cbfb3;
+}
+
+#todo_input {
+    margin-top: 10px;
+    margin: 10px;
+    height: 40px;
+    width: 15rem;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    cursor: text;
+}
+
+#todo_input {
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    background-color: #465465;
+}
