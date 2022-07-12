@@ -35,7 +35,7 @@
                             <p>🔴 {{ $item->name }}</p>
                             <form action="{{ route('markComplete', $item->id) }}" method="post" accept-charset="UTF-8">
                                 {{ csrf_field() }}
-                                <button class="mark-btn" type="submit">Mark As Complete ✨</button>
+                                <button class="mark-btn" type="submit">Mark As <strong>Complete</strong> ✨</button>
                             </form>
                         </div>
                     @endif
